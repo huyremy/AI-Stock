@@ -4,7 +4,7 @@ ARIMA
 **Lưu ý rằng ví dụ trên chỉ là một mô phỏng đơn giản và không đại diện cho mọi trường hợp sử dụng. ARIMA có thể cần được tinh chỉnh thêm và được áp dụng cho các dữ liệu thực tế khác nhau để đạt được kết quả tốt nhất.
 **
 ----------
-Trong ví dụ trên, tệp CSV '2019.csv' được chuẩn bị với hai cột: 'date' và 'close'. Cột 'date' chứa thông tin về ngày (dưới định dạng 'yyyy-mm-dd') và cột 'stock_price' chứa thông tin về giá cổ phiếu tương ứng với mỗi ngày.
+Trong ví dụ trên, tệp CSV '2019.csv' được chuẩn bị với hai cột: 'date' và 'close'. Cột 'date' chứa thông tin về ngày (dưới định dạng 'yyyy-mm-dd') và cột 'Close' chứa thông tin về giá cổ phiếu tương ứng với mỗi ngày.
 
 Dưới đây là một ví dụ về cách dữ liệu có thể được tổ chức trong tệp CSV:
 
