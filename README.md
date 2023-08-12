@@ -9,7 +9,7 @@ Trong ví dụ trên, tệp CSV '2019.csv' được chuẩn bị với hai cột
 Dưới đây là một ví dụ về cách dữ liệu có thể được tổ chức trong tệp CSV:
 
 ```
-date,stock_price
+date,close
 2010-01-01,100.25
 2010-01-02,101.50
 2010-01-03,99.75
