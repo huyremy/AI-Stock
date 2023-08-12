@@ -14,3 +14,22 @@ Sau khi mô hình được huấn luyện, chúng ta sử dụng nó để dự 
 Cuối cùng, chúng ta vẽ biểu đồ với giá cổ phiếu thực tế và giá cổ phiếu dự đoán để so sánh chúng.
 
 Lưu ý rằng ví dụ trên chỉ là một mô phỏng đơn giản và không đại diện cho mọi trường hợp sử dụng. ARIMA có thể cần được tinh chỉnh thêm và được áp dụng cho các dữ liệu thực tế khác nhau để đạt được kết quả tốt nhất.
+----------
+Trong ví dụ trên, tệp CSV 'stock_prices.csv' được chuẩn bị với hai cột: 'date' và 'stock_price'. Cột 'date' chứa thông tin về ngày (dưới định dạng 'yyyy-mm-dd') và cột 'stock_price' chứa thông tin về giá cổ phiếu tương ứng với mỗi ngày.
+
+Dưới đây là một ví dụ về cách dữ liệu có thể được tổ chức trong tệp CSV:
+
+```
+date,stock_price
+2010-01-01,100.25
+2010-01-02,101.50
+2010-01-03,99.75
+2010-01-04,105.30
+...
+```
+
+Trong thực tế, dữ liệu giá cổ phiếu thường chứa nhiều cột khác như mở cửa (open), cao nhất (high), thấp nhất (low), khối lượng giao dịch (volume), v.v. Tuy nhiên, trong ví dụ này, chúng ta chỉ tập trung vào giá cổ phiếu duy nhất.
+
+Lưu ý rằng các giá trị trong cột 'stock_price' có thể là số thập phân hoặc số nguyên, tùy thuộc vào đơn vị giá cổ phiếu và mức độ chính xác mong muốn.
+
+Trước khi chạy ví dụ, hãy đảm bảo rằng bạn đã tạo tệp CSV 'stock_prices.csv' và điều chỉnh nội dung của nó theo đúng định dạng như ví dụ trên.
